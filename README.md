@@ -24,4 +24,5 @@ This command accepts one argument, which is a filter. The filter is applied to a
 2. NPM install `npm install`
 
 ** Will be adding the ability to run a single "process" with an additional argument.
+
 ** Will add the ability to leave the script running, and periodically check sites that are down.
