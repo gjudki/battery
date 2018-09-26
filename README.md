@@ -8,6 +8,10 @@ This is a script that you can run to see if everything that matters to you is ru
 - Processors: file path reference to js files that export an array of URLS. This let's you define URLS programmatically
 - URLS: statically defined list of URLS to check
 
+## config-test.json
+
+Example config file. Rename to 'config.json' in order to see something happen.
+
 ## Run it
 
 Run the script with `node battery`
