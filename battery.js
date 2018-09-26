@@ -74,7 +74,7 @@ const engine = {
         });
     },
     // To make it... prettyish? 
-    lineBreak: function () {console.log('-----------------------------------------------------------------------');}
+    lineBreak: function () {console.info('-----------------------------------------------------------------------');}
 }
 
 engine.check();

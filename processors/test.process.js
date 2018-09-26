@@ -1,3 +1,3 @@
-var urls = ["testtest1.com", "testtest2.com"];
+var urls = ["http://grantjudkins.com/", "malformedlink.com/"];
 
 module.exports = urls;

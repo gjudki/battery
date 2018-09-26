@@ -3,8 +3,8 @@
         "./processors/test.process.js"
     ],
     "urls": [
-        "https://qa-internal-microservices.snapfinance.com/merchant-onboarding/api/v1/commons/business-structure",
-        "https://storelocator.snapfinance.com",
-        "https://qa14-sf.snapfinance.com/snap-merchants"
+        "https://www.google.com/",
+        "https://www.metaweather.com/api/location/2487956/",
+        "https://www.thisscriptiscalledbatterybecauseofmissiles.com/"
     ]
 }]
