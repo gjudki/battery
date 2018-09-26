@@ -56,11 +56,11 @@ const engine = {
             fetch(env).then((response) => {
                 if (response.statusText && response.statusText == 'OK') {
                     engine.lineBreak();
-                    console.log(env + ' is up!(' + response.status + ')');
+                    console.log(env + ' (' + response.status + ')');
                     resolve(); // fulfilled successfully
                 } else {
                     engine.lineBreak();
-                    console.error(env + ' is down! (' + response.status + ')');
+                    console.error(env + ' (' + response.status + ')');
                     reject(); // error, rejected
                 }
             }).catch((error) => {
