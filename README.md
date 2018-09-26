@@ -18,5 +18,10 @@ Run the script with `node battery`
 
 This command accepts one argument, which is a filter. The filter is applied to all of the urls that would normally run in a blanket test, so if you run `node battery qa2`, you would only run it against URLS that contain the "qa2" string.
 
+## Requirements
+
+1. Node version must support ES6 features
+2. NPM install `npm install`
+
 ** Will be adding the ability to run a single "process" with an additional argument.
 ** Will add the ability to leave the script running, and periodically check sites that are down.
