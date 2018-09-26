@@ -25,7 +25,7 @@ key.forEach(function (pair) {
 // // Additional Dynamic URLS from processors specified in config
 if (config.processors) {
     config.processors.forEach(function(process){
-        let procUrls = require(process);
+        var procUrls = require(process);
         urls = urls.concat(procUrls);
     });
     //console.log('urls', urls);
