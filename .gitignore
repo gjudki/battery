@@ -1,3 +1,7 @@
 processors/*
+!processors/test.process.js
+
 node_modules
 config.json
+!config-test.json
+
