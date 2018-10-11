@@ -1,0 +1,23 @@
+{
+  "name": "battery",
+  "version": "1.0.0",
+  "description": "A testing script for API and website wellness",
+  "main": "battery.js",
+  "scripts": {
+    "start": "node battery",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collinhalliday/battery.git"
+  },
+  "author": "Grant Judkins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/collinhalliday/battery/issues"
+  },
+  "homepage": "https://github.com/collinhalliday/battery#readme",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
