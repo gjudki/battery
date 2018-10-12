@@ -1,4 +1,5 @@
 processors/*
+logs/*
 !processors/test.process.js
 
 node_modules

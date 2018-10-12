@@ -6,5 +6,6 @@
         "https://www.google.com/",
         "https://www.metaweather.com/api/location/2487956/",
         "https://www.thisscriptiscalledbatterybecauseofmissiles.com/"
-    ]
+    ],
+    "logging": false
 }]
