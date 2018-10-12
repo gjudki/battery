@@ -7,7 +7,7 @@ This is a script that you can run to see if everything that matters to you is ru
 
 - Processors: file path reference to js files that export an array of URLS. This let's you define URLS programmatically
 - URLS: statically defined list of URLS to check
-- Logging: when set to true, will create a log .txt file
+- Logging: when set to true, will create a [log].txt file
 
 ## config-test.json
 
