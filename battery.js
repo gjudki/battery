@@ -62,7 +62,6 @@
         run: function(){
             console.info('Started at '+currentTime);
             urlCount = urls.length;
-            console.log('URLS LENGTH', urls.length);
             engine.check(false);
         },
         // Gets the status of a url
