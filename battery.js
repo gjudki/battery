@@ -110,6 +110,12 @@
         logOutput: function () {
             if ((urlInc === urlCount) && (config.logging === true)) {
                 var name = 'logs/battery-log_' + moment().format('MM-DD-YY') + '_' + moment().format('h:mm:ss a') + '.txt';
+                var dir = 'logs';
+
+                if (!fs.existsSync(dir)) {
+                    fs.mkdirSync(dir);
+                }
+                
                 fs.appendFile(name, output, function (err) {
                     if (err) throw err;
                     engine.lineBreak();
